@@ -40,3 +40,15 @@ The columns have the following meaning:
 <dt>Shell completion</dt>
 <dd><a href="https://en.wikipedia.org/wiki/Command-line_completion">Tab completion</a> is available for the listed <i>shells</i>.</dd>
 </dl>
+
+## Search and download
+
+| Written in | Name                                    | File review        | Git clone          | Reliable parser    | Shell completion | Specificity                             |
+| ---        | ---                                     | ---                | ---                | ---                | ---              | ---                                     |
+| Python     | pbget                                   | :heavy_check_mark: | :heavy_check_mark: | –                  | –                |                                         |
+| Bash       | yaah                                    | :heavy_check_mark: | :warning:          | –                  | –                |                                         |
+| C++        | auracle-git                             | :heavy_check_mark: | :no_entry:         | :heavy_check_mark: | –                | print build order                       |
+| C          | cower                                   | :heavy_check_mark: | :no_entry:         | –                  | –                | regex support, sort by votes/popularity |
+| C          | package-query                           | :heavy_check_mark: | –                  | –                  | –                | search only                             |
+| Go         | repoctl                                 | :heavy_check_mark: | :no_entry:         | –                  | –                | local repository support                |
+| Emacs Lisp | aurel <br><small>(discontinued)</small> | :heavy_check_mark: | :no_entry:         | –                  | –                | Emacs integration                       |
