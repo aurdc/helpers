@@ -41,6 +41,14 @@ The columns have the following meaning:
 <dd><a href="https://en.wikipedia.org/wiki/Command-line_completion">Tab completion</a> is available for the listed <i>shells</i>.</dd>
 </dl>
 
+----
+#### Note
+
+* Table rows are sorted by column values, where Yes or N/A take precedence over Partial or Optional and No, or alphabetically if values are equal.
+
+* Optional means that a feature is available, but only through a command-line argument or configuration option. Partial means that a feature is not fully implemented, or that it partially deviates from the given criteria.
+----
+
 ## Search and download
 
 | Name                                    | Written in | File review        | Git clone          | Reliable parser    | Shell completion | Specificity                             |
