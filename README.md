@@ -43,12 +43,12 @@ The columns have the following meaning:
 
 ## Search and download
 
-| Written in | Name                                    | File review        | Git clone          | Reliable parser    | Shell completion | Specificity                             |
-| ---        | ---                                     | ---                | ---                | ---                | ---              | ---                                     |
-| Python     | pbget                                   | :heavy_check_mark: | :heavy_check_mark: | –                  | –                |                                         |
-| Bash       | yaah                                    | :heavy_check_mark: | :warning:          | –                  | –                |                                         |
-| C++        | auracle-git                             | :heavy_check_mark: | :no_entry:         | :heavy_check_mark: | –                | print build order                       |
-| C          | cower                                   | :heavy_check_mark: | :no_entry:         | –                  | –                | regex support, sort by votes/popularity |
-| C          | package-query                           | :heavy_check_mark: | –                  | –                  | –                | search only                             |
-| Go         | repoctl                                 | :heavy_check_mark: | :no_entry:         | –                  | –                | local repository support                |
-| Emacs Lisp | aurel <br><small>(discontinued)</small> | :heavy_check_mark: | :no_entry:         | –                  | –                | Emacs integration                       |
+| Name                                    | Written in | File review        | Git clone          | Reliable parser    | Shell completion | Specificity                             |
+| ---                                     | ---        | ---                | ---                | ---                | ---              | ---                                     |
+| pbget                                   | Python     | :heavy_check_mark: | :heavy_check_mark: | –                  | –                |                                         |
+| yaah                                    | Bash       | :heavy_check_mark: | :warning:          | –                  | –                |                                         |
+| auracle-git                             | C++        | :heavy_check_mark: | :no_entry:         | :heavy_check_mark: | –                | print build order                       |
+| cower                                   | C          | :heavy_check_mark: | :no_entry:         | –                  | –                | regex support, sort by votes/popularity |
+| package-query                           | C          | :heavy_check_mark: | –                  | –                  | –                | search only                             |
+| repoctl                                 | Go         | :heavy_check_mark: | :no_entry:         | –                  | –                | local repository support                |
+| aurel <br><small>(discontinued)</small> | Emacs Lisp | :heavy_check_mark: | :no_entry:         | –                  | –                | Emacs integration                       |
